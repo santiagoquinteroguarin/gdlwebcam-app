@@ -110,6 +110,11 @@ html {
 
 body {
   background-color: #F2F2F2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Header */
@@ -166,6 +171,7 @@ div.event-info p {
 
 div.event-info p i {
   color: #FE4918;
+  font-size: 2.4rem;
 }
 
 p.date {
@@ -176,7 +182,27 @@ p.city {
   float: right;
 }
 
+p.slogan {
+  text-transform: none !important;
+}
 
+p.slogan span {
+  font-weight: bold;
+}
+
+@media (min-width: 678px) {
+  h1.name-site {
+    font-size: 11.5vw;
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+h1.name-site {
+  font-size: 5.9vw;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+}
 
 
 
