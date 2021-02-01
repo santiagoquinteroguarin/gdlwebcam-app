@@ -237,6 +237,62 @@ h1.name-site {
   padding: 20px 0;
 }
 
+.logo {
+  width: 80%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+@media (min-width: 678px) {
+  .logo {
+    width: 33%;
+    float: left;
+  }
+}
+
+/* navigation main */
+.navigation-main {
+  display: none;
+}
+
+.navigation-main a {
+  font-family: 'Oswald', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .6s ease;
+}
+
+.navigation-main a:hover {
+  background-color: #FE4918;
+}
+
+.navigation-main a:last-child {
+  border: 2px solid #FE4918;
+  color: #FE4918;
+}
+
+.navigation-main a:last-child:hover {
+  color: #FFFFFF;
+}
+
+@media (min-width: 678px) {
+  .navigation-main {
+    width: 67%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+
+  .navigation-main a {
+    margin-right: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+  }
+}
 
 
 
