@@ -239,6 +239,7 @@ h1.name-site {
 
 .logo {
   width: 80%;
+  float: left;
 }
 
 .logo img {
@@ -248,7 +249,6 @@ h1.name-site {
 @media (min-width: 678px) {
   .logo {
     width: 33%;
-    float: left;
   }
 }
 
@@ -264,6 +264,10 @@ h1.name-site {
   text-transform: uppercase;
   text-decoration: none;
   transition: all .6s ease;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .navigation-main a:hover {
@@ -291,9 +295,37 @@ h1.name-site {
     margin-right: 10px;
     padding: 10px 10px;
     display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 10px 0 0;
   }
 }
 
+/* Menu movil */
+.menu-movil {
+  width: 60px;
+  display: block;
+  float: right;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.menu-movil:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 678px) {
+  .menu-movil {
+    display: none;
+  }
+}
+
+.menu-movil span {
+  height: 8px;
+  margin-bottom: 6px;
+  background-color: #FFFFFF;
+  display: block;
+}
 
 
 
